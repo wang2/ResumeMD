@@ -2,6 +2,10 @@
 
 A minimal Node.js tool that turns a single Markdown file into a print-ready PDF resume, styled with custom CSS and rendered via Puppeteer.
 
+## Preview
+
+![preview](preview.png)
+
 ## Quick Start
 
 ```bash
