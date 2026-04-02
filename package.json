@@ -1,0 +1,16 @@
+{
+  "name": "resumemd",
+  "version": "1.0.0",
+  "description": "Generate a PDF resume from a Markdown file",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "keywords": ["resume", "markdown", "pdf"],
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "marked": "^17.0.5",
+    "puppeteer": "^24.40.0"
+  }
+}
