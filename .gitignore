@@ -1,7 +1,10 @@
 node_modules/
 .DS_Store
 resume.html
+*.pdf
 
 # Personal resume files (keep template.md as the public example)
 Shuo_Wang_Resume.md
 Shuo_Wang_Resume.pdf
+Shuo_Wang_Resume_CN.md
+Shuo_Wang_Resume_CN.pdf

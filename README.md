@@ -4,7 +4,7 @@ A minimal Node.js tool that turns a single Markdown file into a print-ready PDF 
 
 ## Preview
 
-![preview](preview.png)
+preview
 
 ## Quick Start
 
@@ -51,9 +51,9 @@ Phone: +1 234 567 8900 · WeChat: handle · Email: name@example.com
 
 **Header**: `#` for name, `**Title** | URL | Location` pipe-separated, contact fields joined by `·`.
 
-**Experience**: `###` heading with `Company — Role`, followed by `*Date · Location*` in italics.
+**Experience**: `###` heading with `Company — Role`, followed by `*Date · Location`* in italics.
 
-**Education**: list items as `**School** — Degree *(Years)*`.
+**Education**: list items as `**School** — Degree *(Years)`*.
 
 ## Customization
 
@@ -83,3 +83,4 @@ CHROME_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" node 
 ## Requirements
 
 - Node.js >= 18
+
