@@ -4,7 +4,7 @@ A minimal Node.js tool that turns a single Markdown file into a print-ready PDF 
 
 ## Preview
 
-preview
+![preview](preview.png)
 
 ## Quick Start
 
