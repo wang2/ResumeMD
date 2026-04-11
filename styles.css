@@ -8,34 +8,34 @@ body {
   font-family: 'Inter', sans-serif;
   font-size: 10pt;
   color: #1f2937;
-  line-height: 1.45;
+  line-height: 1.2;
   margin: 0;
   padding: 0;
 }
 
 h1 {
   font-family: 'Merriweather', serif;
-  font-size: 24pt;
+  font-size: 22pt;
   font-weight: 700;
-  margin: 0 0 4px 0;
+  margin: 0 0 2px 0;
   color: #111827;
 }
 
 .title {
-  font-size: 12pt;
+  font-size: 11pt;
   color: #4b5563;
-  margin: 0 0 8px 0;
+  margin: 0 0 4px 0;
   font-weight: 500;
 }
 
 .contact {
-  font-size: 9.5pt;
+  font-size: 9pt;
   color: #374151;
-  margin: 0 0 16px 0;
+  margin: 0 0 10px 0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
 }
 
 .contact-item {
@@ -49,28 +49,32 @@ h1 {
 }
 
 .section {
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .section-title {
   font-family: 'Merriweather', serif;
-  font-size: 14pt;
+  font-size: 13pt;
   font-weight: 700;
   color: #111827;
-  margin: 0 0 8px 0;
+  margin: 0 0 4px 0;
   border-bottom: 1px solid #d1d5db;
-  padding-bottom: 4px;
+  padding-bottom: 2px;
 }
 
 .job {
-  margin-bottom: 12px;
+  margin-bottom: 4px;
 }
 
 .job-header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-bottom: 2px;
+  margin-bottom: 3px;
+}
+
+.job ul {
+  margin-top: 2px;
 }
 
 .job-company {
@@ -96,17 +100,19 @@ h1 {
 }
 
 ul {
-  margin: 4px 0 0 0;
-  padding-left: 18px;
+  margin: 2px 0 0 0;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 li {
-  margin-bottom: 4px;
+  margin-bottom: 2px;
+  padding-right: 8px;
 }
 
 li > ul {
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 a {
@@ -128,6 +134,11 @@ p {
   margin-top: 6px;
 }
 
+.education-item .job-header {
+  display: block;
+  margin-bottom: 0;
+}
+
 .education-school {
   font-weight: 700;
   color: #111827;
@@ -143,4 +154,14 @@ p {
 .education-date {
   font-size: 9.5pt;
   color: #4b5563;
+  text-align: right;
+  margin-top: -1em;
+}
+
+.section:last-child ul {
+  margin: 0;
+}
+
+.section:last-child ul li {
+  margin-bottom: 6px;
 }
